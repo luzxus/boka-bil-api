@@ -10,7 +10,6 @@ import java.util.Map;
 
 @RequestMapping
 @RestController
-@CrossOrigin(origins = "http://localhost:5173/")
 public class BookingController {
     @Autowired
     private BookingService _bookingService;
